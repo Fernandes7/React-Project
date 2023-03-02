@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import axios from "axios"
 import Content from './Apifetch'
+import "./Project.css"
 function Project1() {
     const [data,setData]=useState()
     const [loading,setLoading]=useState(true)

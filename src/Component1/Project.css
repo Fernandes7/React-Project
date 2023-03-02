@@ -1,0 +1,17 @@
+.wrap{
+    width:400px;
+    font-family:poppins;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap button{
+    margin-left:20px;
+    width:60px;
+    height: 40px;
+    background-color: azure;
+    border-radius: 5px;
+    border-color:white;
+}
