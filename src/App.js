@@ -1,9 +1,16 @@
 import './App.css';
-import Project1 from './Component1/Project';
+import Project from './Component1/Project';
+import Project1 from './Component2/Project';
+import { BrowserRouter as Router ,Route,Routes } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <Project1 />
+      <Router>
+      <Routes>
+        <Route path="/project1" element={<Project />} />
+        <Route path="/project2" element={<Project1 />} />
+      </Routes>
+      </Router>
     </div>
   );
 }
